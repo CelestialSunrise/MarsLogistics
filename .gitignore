@@ -1,0 +1,32 @@
+# Build artifacts
+bin/
+obj/
+*.dll
+*.exe
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code and Rider
+.vscode/
+.idea/
+
+# Visual Studio cache
+.vs/
+FileContentIndex/
+*.vsdx
+
+# Database and temp files
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log
+
+# Others
+*.DS_Store
+Thumbs.db
