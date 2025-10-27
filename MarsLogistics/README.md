@@ -10,6 +10,11 @@ A .NET 8 Web API MVP for tracking parcel deliveries from Earth to Mars. Built fo
 - [.NET 8 SDK](https://dotnet.microsoft.com/en-us/download)
 - Visual Studio 2022+ or VS Code
 
+## Build the API
+```bash
+dotnet build
+```
+
 ### Run the API
 ```bash
 dotnet run
@@ -23,6 +28,10 @@ to access the Swagger UI for testing endpoints.
 ### Run Unit Tests
 ```bash
 dotnet test MarsLogisticsTests
+
+OR
+
+dotnet test ./MarsLogisticsTests/MarsLogisticsTests.csproj
 ```
 Ensure you're in the correct folder or pass the full `.csproj` path if needed.
 
